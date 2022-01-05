@@ -5,10 +5,16 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 30px;
+}
+.model{
+    color: chocolate;
+}
 .tonmoy-color{
     color: chocolate;
 }
-section{
+.section{
     display: flex;
 }
 .width-div{
@@ -26,7 +32,7 @@ section{
 .button{
     text-decoration: none;
     padding: 10px 40px;
-    background-image: linear-gradient( orange,rgb(255, 18, 18));
+    background-image: linear-gradient( rgb(219, 1, 37),rgb(189, 44, 0));
     color: cornsilk;
     font-weight: 700px;
     border-radius: 5px;
@@ -35,4 +41,28 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.shadow{
+    box-shadow: 10px 10px 30px black;
+    padding: 5%;
+    margin: 5%;
+    width: 40%;
+    border-radius: 5px;
+}
+.second-bg-img{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#right-border1{
+    border-left: 6px solid;
+    border-image: linear-gradient(rgba(32, 91, 255, 0.986),rgb(65, 0, 54));
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+#right-border2{
+    border-left: 6px solid;
+    border-image: linear-gradient(rgba(218, 32, 255, 0.986),rgb(0, 10, 65));
+    border-image-slice: 1;
+    border-radius: 5px;
 }
